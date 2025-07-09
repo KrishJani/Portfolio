@@ -1,3 +1,6 @@
+https://krishjani.com/
+
+
 To do:
 
 1) fix skills and technology card (fix height)
