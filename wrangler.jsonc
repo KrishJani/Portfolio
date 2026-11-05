@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "portfolio",
+  "compatibility_date": "2026-11-03",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "."
+  },
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "krishjani.com", "custom_domain": true },
+    { "pattern": "www.krishjani.com", "custom_domain": true }
+  ]
+}
